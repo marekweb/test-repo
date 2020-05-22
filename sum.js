@@ -1,8 +1,8 @@
-function sum(input) {
+function sum(array) {
   let sum = 0;
 
-  for (let i = 0; i < input.length; i++) {
-    sum += input[i];
+  for (let index = 0; index < array.length; index++) {
+    sum += array[index];
   }
 
   return sum;
